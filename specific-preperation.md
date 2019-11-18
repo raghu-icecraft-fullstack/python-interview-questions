@@ -26,6 +26,17 @@ cc[3]  # displays 3
 cc[:5] # slice(None, 5, None), a slice object  is created
 cc[3:5] # slice(3, 5, None), a slice object to class instances from 3 to 5
 ```
-
 In summary, '__getitem__ method' is helpful in managing slice based input
 Reference: https://stackoverflow.com/questions/2936863/python-implementing-slicing-in-getitem
+
+## Understanding slice
+The slice object is used to slice a given sequence (string, bytes, tuple, list or range) or any object which supports sequence protocol (implements __getitem__() and __len__() method).
+
+Slice object represents the indices specified by range(start, stop, step).
+
+The syntax of slice() are:
+slice(stop)
+slice(start, stop, step)
+
+Reference: https://www.programiz.com/python-programming/methods/built-in/slice
+
