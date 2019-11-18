@@ -27,5 +27,5 @@ cc[:5] # slice(None, 5, None), a slice object  is created
 cc[3:5] # slice(3, 5, None), a slice object to class instances from 3 to 5
 ```
 
-In summary, __getitem__ is helpful in managing slice based input
+In summary, '__getitem__ method' is helpful in managing slice based input
 Reference: https://stackoverflow.com/questions/2936863/python-implementing-slicing-in-getitem
