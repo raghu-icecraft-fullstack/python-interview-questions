@@ -1,3 +1,4 @@
+1. Slicing on class object
 
 ```python
 class A():
@@ -40,3 +41,5 @@ slice(start, stop, step)
 
 Reference: https://www.programiz.com/python-programming/methods/built-in/slice
 
+
+1. Decorators and Closures
